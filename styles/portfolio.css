@@ -113,6 +113,10 @@ p {
     max-height: 40px;
 }
 
+img {
+    border-radius: 20px;
+}
+
 nav{
     padding: 20px 0;
 }
