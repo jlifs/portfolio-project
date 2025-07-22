@@ -35,7 +35,7 @@ h3 {
 
 p {
     font-weight: normal;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 30px;
 }
 
@@ -80,7 +80,7 @@ p {
 }
 
 .content p {
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .content {
@@ -157,6 +157,17 @@ footer .contact-box {
 footer .contact-box p {
     margin: 0;
 }
+
+
+
+footer p {
+    font-size: 18px;
+    font-weight: 20;
+    color: rgb(168, 163, 163);
+  
+}
+
+
 footer .email-link {
     text-decoration: none;
     color: black;
