@@ -75,7 +75,7 @@ p {
 
 .content h3 {
     font-size: 24px;
-    line-height: 1.5;
+    line-height: 2.4;
     font-family: var(--default-font-family);
 }
 
@@ -171,7 +171,9 @@ footer p {
 footer .email-link {
     text-decoration: none;
     color: black;
-    font-size: 24px;
+    font-size: 36px;
+    margin: 0 20px;
+    padding: 10px 20px;
 }
 
 footer .email-link:hover {
@@ -179,12 +181,12 @@ footer .email-link:hover {
 }
 
 footer .social-links a {
-    margin: 0 20px;
+    margin: 10px;
     color: var(--branding-color);
     background-color: var(--secondary-color);
-    padding: 10px 14px;
+    padding: 12px 20px;
     border-radius: 50%;
-    font-size: 18px;
+    font-size: 32px;
     transition: all 100ms ease-in-out;
 }
 
@@ -214,6 +216,6 @@ footer .social-links a:hover {
 
     .project-description {
         padding: 0;
-        text-align:center;
+        text-align: center;
  }
 }
