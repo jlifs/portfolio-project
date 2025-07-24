@@ -30,7 +30,9 @@ h2 {
 }
 
 h3 {
-    font-size: 48px;
+    font-size: 35px;
+    margin: 10px 0;
+    padding: 10px 20px;
 }
 
 p {
@@ -110,7 +112,7 @@ p {
 }
 
 .logo {
-    max-height: 40px;
+    max-height: 50px;
 }
 
 img {
@@ -146,6 +148,7 @@ nav li.active a {
 
 footer {
     margin: 60px 0;
+    border-top: 1px solid #888;
 }
 
 footer .contact-box {
@@ -164,15 +167,14 @@ footer p {
     font-size: 18px;
     font-weight: 20;
     color: rgb(168, 163, 163);
-  
 }
 
 
 footer .email-link {
     text-decoration: none;
     color: black;
-    font-size: 36px;
-    margin: 0 20px;
+    font-size: 28px;
+    margin: 16px 0;
     padding: 10px 20px;
 }
 
@@ -181,12 +183,12 @@ footer .email-link:hover {
 }
 
 footer .social-links a {
-    margin: 10px;
+    margin: 18px;
     color: var(--branding-color);
     background-color: var(--secondary-color);
-    padding: 12px 20px;
+    padding: 12px 24px;
     border-radius: 50%;
-    font-size: 32px;
+    font-size: 34px;
     transition: all 100ms ease-in-out;
 }
 
