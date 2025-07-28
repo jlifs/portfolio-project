@@ -129,7 +129,7 @@ img {
 }
 
 nav{
-    padding: 20px 0;
+    padding: 25px 0;
 }
 
 nav ul {
@@ -141,7 +141,7 @@ nav li {
     display: inline;
     list-style: none;
     line-height: 42px;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
 nav a {
@@ -158,6 +158,7 @@ nav li.active a {
 footer {
     margin: 60px 0;
     border-top: 1px solid #888;
+    margin-bottom: -60px;
 }
 
 footer .contact-box {
@@ -169,7 +170,6 @@ footer .contact-box {
 footer .contact-box p {
     margin: 0;
 }
-
 
 
 footer p {
@@ -206,10 +206,10 @@ footer .social-links a:hover {
     background: var(--branding-color);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
     h1 {
-        font-size: 44px;
-        line-height: 58px;
+        font-size: 40px;
+        line-height: 1;
     }
 
     h2 {
@@ -233,4 +233,9 @@ footer .social-links a:hover {
         padding: 0;
         text-align: center;
  }
+
+ footer .contact-container {
+    font-size: 16px;
+    
+}
 }

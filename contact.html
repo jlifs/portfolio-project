@@ -54,16 +54,33 @@ crossorigin="anonymous"
         </ul>
        </nav>
       </div>
-    <div class="content-container container">
-        <div class="content">
-    <h1 class="mb-5">Let's get in touch!</h1>
-    <p>
-        I build user-friendly and engaging web interfaces using HTML, CSS, and JavaScript. 
-        I'm committed to building websites that are not only visually appealing but also functional, responsive and user-friendly.
-    </p>
+     <div class="content-container container">
+      <h1 class="mb-5">Let's get in touch!</h1>
+      <div class="row">
+        <div class="col">
+          <form class="border p-3 rounded mb-3">
+            <div class="mb-3">
+              <label class="form-label">Your Email:</label>
+              <input
+                type="email"
+                class="form-control"
+                name="_replyto"
+                required
+                autofocus
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Your Message: </label>
+              <textarea name="message" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-branding">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
    </div>
   </div>
-  <footer>
+  <footer class="contact-container">
         <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
             <div>
             <h3>Work Inquiries:</h3>
@@ -80,7 +97,7 @@ crossorigin="anonymous"
         jlifsey.dev@outlook.com 
      </a>
     </div>
-     <div class="social-links d-flex justify-content-center">
+     <div class="social-links d-flex justify-content-center mb-5">
         <a 
         href="https://www.linkedin.com/in/jennifer-lifsey/"
         target="_blank"
@@ -95,16 +112,19 @@ crossorigin="anonymous"
         >
         <i class="fab fa-github"></i>
         </a>
-        <a 
-        href="https://www.facebook.com/jenlifsey"
-        target="_blank"
-        tile="Facebook profile"
-        >
-        <i class="fab fa-facebook"></i>
-        </a>
       </div>
     </div>
   </div>
  </footer>
+
+ <footer> 
+      <p class="text-center mt-5">
+        This project was coded by Jennifer Lifsey, and it is 
+        <a href="https://github.com/jlifs/portfolio-project"
+        target="_blank">
+        open-sourced
+        </a>
+      </p>
+    </footer>
  </body>
 </html>
