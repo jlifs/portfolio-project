@@ -168,7 +168,7 @@ footer .contact-box {
 }
 
 footer .contact-box p {
-    margin: 0;
+    margin-bottom: 0; 
 }
 
 
@@ -192,10 +192,10 @@ footer .email-link:hover {
 }
 
 footer .social-links a {
-    margin: 18px;
+    margin-top: -0.1px;
     color: var(--branding-color);
     background-color: var(--secondary-color);
-    padding: 12px 24px;
+    padding: 14px 30px;
     border-radius: 50%;
     font-size: 34px;
     transition: all 100ms ease-in-out;
@@ -229,13 +229,16 @@ footer .social-links a:hover {
         padding: 0;
     }
 
+    .content-container .social-links {
+        font-size: 26px;
+    }
+
     .project-description {
         padding: 0;
         text-align: center;
  }
 
  footer .contact-container {
-    font-size: 16px;
-    
+    font-size: 100px;
 }
 }
