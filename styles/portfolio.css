@@ -136,8 +136,9 @@ img {
     border-radius: 20px;
 }
 
-nav{
-    padding: 25px 0;
+nav {
+    padding: 20px 0;
+    white-space: nowrap;
 }
 
 nav ul {
@@ -245,14 +246,10 @@ footer .social-links a:hover {
         font-size: 26px;
     }
 
-    .container ul {
-        white-space: nowrap;
-    }
-
     .project-description {
         padding: 0;
         text-align: center;
- }
+    }
 
     footer .contact-container {
     font-size: 100px;
