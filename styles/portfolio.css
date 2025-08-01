@@ -43,8 +43,8 @@ p {
 
 .hero {
     background-image: linear-gradient(
-    rgba(0, 0, 0, 0.4), 
-    rgba(0, 0, 0, 0.6)),
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.9)),
     url("../images/coding.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,9 +112,14 @@ p {
     background: var(--branding-color);
     border-radius: 4px;
     color: white;
+    text-decoration: none;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+}
+
+.btn-branding:hover {
+  color: var(--branding-color);
 }
 
 .btn-branding-outline {
@@ -122,8 +127,14 @@ p {
     border: 1px solid var(--branding-color);
     border-radius: 4px;
     font-size: 18px;
+    text-decoration: none;
     line-height: 27px;
     padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+  color: white;
 }
 
 .project-description {
