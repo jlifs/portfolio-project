@@ -147,10 +147,11 @@ p {
 }
 
 .logo {
+    flex-direction: row;
     max-width: 100%;
     height: auto;
-    width: 50%;
-    margin-top: -90px;
+    width: 60%;
+    margin-top: -120px;
 }
 
 img {
@@ -158,8 +159,9 @@ img {
 }
 
 nav {
-    padding: 20px 0;
+    padding: 25px 0;
     white-space: nowrap;
+   
 }
 
 nav ul {
@@ -188,7 +190,6 @@ nav li.active a {
 footer {
     margin: 60px 0;
     border-top: 1px solid #888;
-    margin-bottom: -60px;
 }
 
 footer .contact-box {
@@ -236,7 +237,7 @@ footer .social-links a:hover {
     background: var(--branding-color);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
     h1 {
         font-size: 40px;
         line-height: 1;
@@ -251,11 +252,16 @@ footer .social-links a:hover {
     }
 
     .logo {
-        margin-top: -70px;
+        margin-top: -10px;
+        max-width: 50%;
     }
 
     .hero {
-        margin-top: -20px;
+        margin-top: 20px;
+    }
+
+    .hero p {
+        font-size: 16px;
     }
 
     .content {
@@ -268,8 +274,7 @@ footer .social-links a:hover {
     }
 
     .project-description {
-        padding: 0;
-        text-align: center;
+        padding: 5px;
     }
 
     footer .contact-container {
