@@ -45,7 +45,7 @@ p {
     background-image: linear-gradient(
     rgba(0, 0, 0, 0.6), 
     rgba(0, 0, 0, 0.9)),
-    url("../images/coding.jpg");
+    url("../images/cover.png");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -301,3 +301,4 @@ footer .social-links a:hover {
     font-size: 100px;
  }
 }
+
