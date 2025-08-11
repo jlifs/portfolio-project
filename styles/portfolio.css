@@ -144,7 +144,7 @@ p {
 }
 
 .logo {
-    max-width: 150px;
+    max-width: 100px;
 }
 
 img {
@@ -251,10 +251,6 @@ footer .social-links a:hover {
 
     h3 {
         font-size: 26px;
-    }
-
-    .logo {
-        max-width: 2px;
     }
 
     .hero {
